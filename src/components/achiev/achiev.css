@@ -1,0 +1,59 @@
+.achiev {
+	background-color: var(--dark);
+	width: 100vw;
+	min-height: 100vh;
+}
+
+.achiev .heading {
+	color: var(--light);
+	text-align: center;
+	padding-top: 4rem;
+	margin-bottom: 1rem;
+}
+
+.achiev .back {
+	width: 100vw;
+	height: 70vh;
+	overflow: hidden;
+}
+
+.achiev .back img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.achiev .img_holder {
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 4px;
+}
+
+.achiev .achiev_container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 2rem;
+	position: relative;
+	top: -300px;
+	gap: 2rem;
+}
+
+.achiev .card_img {
+	width: 100%;
+
+	object-fit: cover;
+	overflow: hidden;
+}
+
+.achiev .a_card {
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+	min-height: 400px;
+	width: 18rem;
+	border-radius: 4px;
+	background-color: var(--light);
+}
+
+.achiev .info {
+	padding: 2rem;
+}
