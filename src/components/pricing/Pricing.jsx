@@ -5,6 +5,9 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import "./pricing.css";
 
+import paypal from "../../assets/paypal.png";
+import stripe from "../../assets/stripe.png";
+
 const Pricing = () => {
 	return (
 		<div className="pricing">
@@ -29,18 +32,10 @@ const Pricing = () => {
 									<h3 className="font-weight-bold fs-4">Payment Methods</h3>
 									<div className="payment">
 										<div className="paypal">
-											<img
-												src="../../../src/assets/paypal.png"
-												alt=""
-												srcset=""
-											/>
+											<img src={paypal} alt="" srcset="" />
 										</div>
 										<div className="stripe">
-											<img
-												src="../../../src/assets/stripe.png"
-												alt=""
-												srcset=""
-											/>
+											<img src={stripe} alt="" srcset="" />
 										</div>
 									</div>
 									<Link to="/contact">
@@ -68,18 +63,10 @@ const Pricing = () => {
 									<h3 className="font-weight-bold fs-4">Payment Methods</h3>
 									<div className="payment">
 										<div className="paypal">
-											<img
-												src="../../../src/assets/paypal.png"
-												alt=""
-												srcset=""
-											/>
+											<img src={paypal} alt="" srcset="" />
 										</div>
 										<div className="stripe">
-											<img
-												src="../../../src/assets/stripe.png"
-												alt=""
-												srcset=""
-											/>
+											<img src={stripe} alt="" srcset="" />
 										</div>
 									</div>
 									<Link to="/contact">

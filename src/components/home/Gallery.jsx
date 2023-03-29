@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 
+import chess01 from "../../assets/chess01.jpg";
+import chess02 from "../../assets/chess02.jpg";
+import chess03 from "../../assets/chess03.jpg";
+
 const Gallery = () => {
 	const [index, setIndex] = useState(0);
 	const handleSelect = (selectedIndex, e) => {
@@ -14,11 +18,7 @@ const Gallery = () => {
 				<div className="ca_gallery_container">
 					<Carousel activeIndex={index} onSelect={handleSelect}>
 						<Carousel.Item>
-							<img
-								className="d-block w-100"
-								src="../../../src/assets/chess01.jpg"
-								alt="First slide"
-							/>
+							<img className="d-block w-100" src={chess01} alt="First slide" />
 							<Carousel.Caption
 								style={{
 									position: "absolute",
@@ -33,11 +33,7 @@ const Gallery = () => {
 							</Carousel.Caption>
 						</Carousel.Item>
 						<Carousel.Item>
-							<img
-								className="d-block w-100"
-								src="../../../src/assets/chess02.jpg"
-								alt="Second slide"
-							/>
+							<img className="d-block w-100" src={chess02} alt="Second slide" />
 
 							<Carousel.Caption
 								style={{
@@ -53,11 +49,7 @@ const Gallery = () => {
 							</Carousel.Caption>
 						</Carousel.Item>
 						<Carousel.Item>
-							<img
-								className="d-block w-100"
-								src="../../../src/assets/chess03.jpg"
-								alt="Third slide"
-							/>
+							<img className="d-block w-100" src={chess03} alt="Third slide" />
 
 							<Carousel.Caption
 								style={{

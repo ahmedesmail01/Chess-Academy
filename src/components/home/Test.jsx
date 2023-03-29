@@ -8,6 +8,11 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation"; */
 
+import person01 from "../../assets/person01.jpg";
+import person02 from "../../assets/person02.jpg";
+import person03 from "../../assets/person03.jpg";
+import person04 from "../../assets/person04.jpg";
+
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
 
 //
@@ -32,7 +37,7 @@ const Test = () => {
 						<div className="card">
 							<div className="overlay">
 								<div className="card_image">
-									<img src="../../../src/assets/person01.jpg" alt="person 1" />
+									<img src={person01} alt="person 1" />
 								</div>
 							</div>
 							<div className="info">
@@ -55,7 +60,7 @@ const Test = () => {
 						<div className="card">
 							<div className="overlay">
 								<div className="card_image">
-									<img src="../../../src/assets/person02.jpg" alt="person 1" />
+									<img src={person02} alt="person 2" />
 								</div>
 							</div>
 							<div className="info">
@@ -78,7 +83,7 @@ const Test = () => {
 						<div className="card">
 							<div className="overlay">
 								<div className="card_image">
-									<img src="../../../src/assets/person03.jpg" alt="person 1" />
+									<img src={person03} alt="person 3" />
 								</div>
 							</div>
 							<div className="info">
@@ -101,7 +106,7 @@ const Test = () => {
 						<div className="card">
 							<div className="overlay">
 								<div className="card_image">
-									<img src="../../../src/assets/person04.jpg" alt="person 1" />
+									<img src={person04} alt="person 4" />
 								</div>
 							</div>
 							<div className="info">
