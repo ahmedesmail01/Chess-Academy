@@ -2,7 +2,6 @@
 //import viteLogo from '/vite.svg'
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-//https://www.openingtree.com/
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
