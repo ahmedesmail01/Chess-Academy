@@ -2,7 +2,7 @@
 //import viteLogo from '/vite.svg'
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
+//https://www.openingtree.com/
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
@@ -22,12 +22,12 @@ function App() {
 	return (
 		<Router>
 			<div className="App">
+				<NavbarCa />
 				<Routes>
 					<Route
 						path="/"
 						element={
 							<>
-								<NavbarCa />
 								<Hero />
 								<Services />
 								<Gallery />
@@ -40,7 +40,6 @@ function App() {
 						path="/pricing"
 						element={
 							<>
-								<NavbarCa />
 								<Pricing />
 								<Footer />
 							</>
@@ -50,7 +49,6 @@ function App() {
 						path="/faq"
 						element={
 							<>
-								<NavbarCa />
 								<Faq />
 								<Footer />
 							</>
@@ -60,7 +58,6 @@ function App() {
 						path="/contact"
 						element={
 							<>
-								<NavbarCa />
 								<Contact />
 								<Footer />
 							</>
@@ -70,7 +67,6 @@ function App() {
 						path="/achievements"
 						element={
 							<>
-								<NavbarCa />
 								<Achiev />
 								<Footer />
 							</>
