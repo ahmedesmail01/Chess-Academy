@@ -48,11 +48,6 @@ const NavbarCa = () => {
 								Pricing
 							</Link>
 						</Nav.Link>
-						<Nav.Link>
-							<a className="ca_nav" href="https://www.openingtree.com">
-								Start a Game
-							</a>
-						</Nav.Link>
 						<Nav.Link onClick={handleLinkClick}>
 							<Link className="ca_nav" to="/faq">
 								FAQ
