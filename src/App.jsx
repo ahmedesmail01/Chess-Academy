@@ -1,5 +1,3 @@
-//import reactLogo from './assets/react.svg'
-//import viteLogo from '/vite.svg'
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "@fontsource/roboto/300.css";
@@ -16,11 +14,12 @@ import Pricing from "./components/pricing/Pricing";
 import Faq from "./components/FAQ/Faq";
 import Contact from "./components/contact/Contact";
 import Achiev from "./components/achiev/Achiev";
+import Sidebar from "./components/Sidebar";
 function App() {
 	return (
 		<Router>
 			<div className="App">
-				<NavbarCa />
+				<Sidebar />
 				<Routes>
 					<Route
 						path="/"

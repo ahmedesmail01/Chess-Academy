@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	text-decoration: none;
 }
 
 body {
@@ -16,8 +17,8 @@ body {
 }
 
 a {
-	text-decoration: none;
-	color: var(--light);
+	text-decoration: none !important;
+	color: var(--light) !important;
 	transition: 0.3s;
 }
 
@@ -33,6 +34,7 @@ a:hover {
 	position: fixed;
 	width: 100%;
 	z-index: 999;
+	text-decoration: none;
 }
 
 .ca_navbar .ca_logo,
@@ -54,6 +56,25 @@ a:hover {
 }
 
 /* finish nav bar */
+
+/* start sidebar */
+
+.ca_navbar .side_header {
+	background-color: var(--dark);
+	color: var(--light);
+}
+
+.navbar-nav .dropdown-menu {
+	position: static;
+	background: var(--medium);
+	color: var(--light);
+}
+
+.navbar-nav .dropdown-item:focus,
+.navbar-nav .dropdown-item:hover {
+	background-color: var(--very-dark);
+}
+/* end sidebar */
 
 /* start hero section */
 .ca_hero {
